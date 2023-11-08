@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Merged File</title>
+</head>
+<body>
+    <h1>Download Merged CSV File</h1>
+    <p>Your files have been merged. Click the button below to download the merged CSV file.</p>
+    <a href="{% url 'csvmerge:download_file' %}" download>
+        <button>Download Merged File</button>
+    </a>
+</body>
+</html>
